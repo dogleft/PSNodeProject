@@ -1,5 +1,15 @@
 # PSNodeProject
-Encodes good practice managing a Node.js code base
+Encodes good practice managing a simple Node.js code base. 
+As a relative newbie for Node, I see a lot of varied advice online for how to structure a project. Of course projects tend to be unique, and one approach won't fit all. So, I'm encoding advice that seems appropriate for this scenario:
+- Simple apps (practice projects, multiple microservices with UI
+- MEAN stack
+- Code organization organized based on features, not layers
+- Docker containerization
+- AWS native deployment
+
+The goal is to spin up and tear down Node projects quickly, and to add/remove features quickly. 
+
+Feel free to comment/contribute if you like. 
 
 ## Core Folder Structure
 `New-PSNodeProject` creates a basic folder structure and initial files common to all projects:
